@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juan\\source\\repos\\Negocio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|c:\\users\\juan\\source\\repos\\negocio\\negocio\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|solutionrelative:negocio\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|c:\\users\\juan\\source\\repos\\negocio\\negocio\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|solutionrelative:negocio\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|c:\\users\\juan\\source\\repos\\negocio\\negocio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|solutionrelative:negocio\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|c:\\users\\juan\\source\\repos\\negocio\\negocio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|solutionrelative:negocio\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|c:\\users\\juan\\source\\repos\\negocio\\negocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|solutionrelative:negocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|c:\\users\\juan\\source\\repos\\negocio\\negocio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A17FDA2-CFAD-401A-9961-3E1AD04B1D6F}|Negocio\\Negocio.csproj|solutionrelative:negocio\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 109,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Venta.cs",
+              "RelativeDocumentMoniker": "Negocio\\Venta.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Venta.cs",
+              "RelativeToolTip": "Negocio\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:01:07.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Proveedor.cs",
+              "RelativeDocumentMoniker": "Negocio\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Proveedor.cs",
+              "RelativeToolTip": "Negocio\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:00:32.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Producto.cs",
+              "RelativeDocumentMoniker": "Negocio\\Producto.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Producto.cs",
+              "RelativeToolTip": "Negocio\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T17:00:09.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "Negocio\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\DetalleVenta.cs",
+              "RelativeToolTip": "Negocio\\DetalleVenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:59:49.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Cliente.cs",
+              "RelativeDocumentMoniker": "Negocio\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Cliente.cs",
+              "RelativeToolTip": "Negocio\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:59:26.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Categoria.cs",
+              "RelativeDocumentMoniker": "Negocio\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\Negocio\\Negocio\\Categoria.cs",
+              "RelativeToolTip": "Negocio\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T16:59:07.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

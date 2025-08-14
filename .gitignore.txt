@@ -1,0 +1,19 @@
+# Visual Studio Code
+.vscode/
+
+# Visual Studio files
+*.vs
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Rider files
+.idea/
+
+# User-specific files
+*.DotSettings.user
