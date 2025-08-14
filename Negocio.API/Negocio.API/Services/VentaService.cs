@@ -52,6 +52,7 @@ namespace Negocio.API.Services
             var productoIds = ventaRequestDTO.DetalleVenta.Select(detalle => detalle.IdProducto).ToList();
             var productosDeLaVenta = await _context.Productos
                 .Where(p => productoIds.Contains(p.Id)).ToListAsync();
+
             using (var transaction = await _context.Database.BeginTransactionAsync())
             {
                 try
@@ -60,11 +61,13 @@ namespace Negocio.API.Services
                     {
                         throw new ArgumentNullException(nameof(ventaRequestDTO), "La solicitud de venta no puede ser nula.");
                     }
+
                     //Validar que haya detalles de venta
                     if (ventaRequestDTO.DetalleVenta == null || !ventaRequestDTO.DetalleVenta.Any())
                     {
                         throw new Exception("La venta debe tener al menos un detalle.");
                     }
+
                     //Validar stock
                     foreach (var detalle in ventaRequestDTO.DetalleVenta)
                     {
@@ -77,7 +80,8 @@ namespace Negocio.API.Services
                         {
                             throw new Exception($"Producto con ID {detalle.IdProducto} no tiene stock suficiente.");
                         }
-                    }                    
+                    }     
+                    
                     //Calculo el total de la venta
                     decimal TotalVenta = 0;
                     foreach (var detalleDto in ventaRequestDTO.DetalleVenta)
@@ -85,6 +89,7 @@ namespace Negocio.API.Services
                         var producto = productosDeLaVenta.First(p => p.Id == detalleDto.IdProducto);
                         TotalVenta += (producto.PrecioVenta ?? 0) * (decimal)detalleDto.Cantidad;
                     }
+
                     // Crear la venta
                     var venta = new Venta
                     {
@@ -93,11 +98,13 @@ namespace Negocio.API.Services
                         TotalVenta = TotalVenta,
                         MetodoDePago = ventaRequestDTO.MetodoDePago
                     };
+
                     // Agregar detalles de la venta
                     if (ventaRequestDTO.DetalleVenta != null)
                     {
                         foreach (var detalle in ventaRequestDTO.DetalleVenta)
                         {
+
                             var producto = productosDeLaVenta.First(p => detalle.IdProducto == p.Id);
                             var detalleVenta = new DetalleVenta
                             {
@@ -106,6 +113,7 @@ namespace Negocio.API.Services
                                 PrecioUnitario = producto.PrecioVenta,
                                 Subtotal = (producto.PrecioVenta) * (decimal)detalle.Cantidad
                             };
+
                             // Actualizar el stock del producto
                             producto.StockActual -= detalle.Cantidad;
                             _context.Productos.Update(producto);
@@ -115,6 +123,7 @@ namespace Negocio.API.Services
                     _context.Venta.Add(venta);
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();
+
                     // Asignar el Id generado al DTO
                     var VentaDto = new VentaDTO
                     {

@@ -84,7 +84,6 @@ public class ProductosController : ControllerBase
         }
         catch (DbUpdateConcurrencyException)
         {
-            // Manejar un posible error si el producto ya no existe, etc.
             return NotFound();
         }
 
@@ -101,7 +100,7 @@ public class ProductosController : ControllerBase
         }
 
         _productoRepository.Delete(producto);
-        await _productoRepository.SaveChangesAsync(); // Guarda los cambios en la BD
+        await _productoRepository.SaveChangesAsync();
 
         return NoContent();
     }
