@@ -35,6 +35,7 @@ Esta API implementa una arquitectura de capas bien definida para gestionar las o
 
 ## Estructura del Proyecto
 La solución está organizada en dos proyectos principales, siguiendo el principio de separación de responsabilidades:
+```
 
 /
 ├── Negocio/              # Proyecto Núcleo (Biblioteca de Clases)
@@ -47,6 +48,8 @@ La solución está organizada en dos proyectos principales, siguiendo el princip
     ├── Services/         # Clases que contienen la lógica de negocio
     ├── Repositories/     # Implementaciones concretas de los repositorios
     └── appsettings.json  # Archivo de configuración
+```
+
 ## Instalación y Uso
 Para poner en funcionamiento esta API en tu entorno local, sigue estos pasos:
 
